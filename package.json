@@ -1,0 +1,13 @@
+{
+  "name": "samku-cms-root",
+  "version": "1.0.0",
+  "description": "Root package.json to delegate commands to the Backend directory on Render",
+  "scripts": {
+    "preinstall": "cd Backend && npm install",
+    "build": "echo 'No build required for backend'",
+    "start": "cd Backend && npm start"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
